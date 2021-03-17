@@ -18,4 +18,4 @@
 ## Прочая информация
 Подробнее про мод можно [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появлятся в [группе ВК сайта C&C Series](https://vk.com/cncseries).
 
-Локализатор был скачен с: https://github.com/MahBoiTranslator/TwistedInsurrectionRu/
+Локализатор был скачен с: https://github.com/MahBoiTranslator/GeneralsEvolutionRu

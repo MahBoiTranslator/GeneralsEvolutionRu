@@ -4,6 +4,7 @@
 
 	+переведено полностью внутриигровое меню
 	+переведены описания и названия юнитов/зданий/ГПшек
+	-непереведены иконки
 
 Актуальную версию локализатора можете скачать [здесь](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v02b021/Generals.Evolution.b021.rar)
 

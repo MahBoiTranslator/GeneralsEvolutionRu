@@ -6,7 +6,7 @@
 	+переведены описания и названия юнитов/зданий/ГПшек
 	-непереведены иконки
 
-Актуальную версию локализатора можете скачать [здесь](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v03b021/Generals.Evolution.b021.zip)
+Актуальную версию локализатора можете скачать [здесь](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v04b021/Generals.Evolution.b021.zip)
 
 ## Описание установки
 Скопируйте файлы русификатора в папку с модом Generals Evolution той же версии, что и русификатор (в противном случае могут возникать ошибки), подтверждая замену.
@@ -22,5 +22,4 @@
 ## Прочая информация
 Подробнее про мод можно [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появлятся в [группе ВК сайта C&C Series](https://vk.com/cncseries).
 
-Локализатор был скачен с: https://github.com/MahBoiTranslator/GeneralsEvolutionRu
-Последняя актуальная версия: https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v03b021/Generals.Evolution.b021.zip
+Последняя актуальная версия: https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v04b021/Generals.Evolution.b021.zip

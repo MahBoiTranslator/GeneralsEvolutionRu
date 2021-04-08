@@ -22,4 +22,4 @@
 ## Прочая информация
 Подробнее про мод можно [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появлятся в [группе ВК сайта C&C Series](https://vk.com/cncseries).
 
-Последняя актуальная версия: https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v04b021/Generals.Evolution.b021.zip
+Последняя версия [локализатора](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v05b021/Generals.Evolution.b021.zip).

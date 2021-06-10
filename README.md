@@ -23,4 +23,6 @@
 ## Прочая информация
 Подробнее про мод можно [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появлятся в [группе ВК сайта C&C Series](https://vk.com/cncseries).
 
+Локализатор поддерживает перевод только 1 карты: [Turtle Mountain](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/turtle-mountain).
+
 Последняя версия [локализатора](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v05b021/Generals.Evolution.b021.zip).

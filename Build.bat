@@ -11,4 +11,4 @@ xcopy /h /y /c /r /s Source\Launcher Translation\Launcher
 
 : "Сборка карт
 mkdir Translation\Maps
-xcopy /h /y /c /r /s "Source\Maps with text\" Translation\Maps
+xcopy /h /y /c /r /s Source\Maps Translation\Maps

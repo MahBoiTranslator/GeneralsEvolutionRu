@@ -1,0 +1,40 @@
+Name:AmericaVehicleBattleShip
+	"Battleship"
+End
+
+Type:AmericaVehicleBattleShip
+	"Naval Support"
+End
+
+Desc:AmericaVehicleBattleShip
+	"Naval Support Unit \n> Strong vs. vehicles, buildings \n> Weak vs. aircraft"
+End
+
+Primary_Objective
+	"destroy the scud storm with those tomahawks and clear the first gla base"
+End
+
+Primary_Description
+	"destroy the scud storm with those tomahawks"
+End
+
+Secondary_Objective
+	"destroy the Kassad fanatic, and liberate the region"
+End
+
+Secondary_Description
+	" destroy the Kassad fanatic, and liberate the region"
+End
+
+Primary_Advice
+	"Capture this oil derricks will provide us more ressources"
+End
+
+Primary_Advice_Desc
+	"Capturing this oil derrick will provide us more ressources"
+End
+
+
+	
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	<Include type="all" source="Code/AmericaVehicleBattleShip.xml"/>
+	<Include type="all" source="Code/Audio.xml"/>
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	
+	<Include type="all" source="Art/AVBattleSh.W3X"/>
+	
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	<Texture id="GenEvo_UnitPortraits_Battleship" File="Art/USBattleShip.dds" OutputFormat="A8R8G8B8" GenerateMipMaps="false" AllowAutomaticResize="false"/>
+	
+	<AudioFile id="C_USA02" File="Audio/C_USA02.wav" GUIPreset="Default" />
+	<AudioFile id="cjetf01a" File="Audio/cjetf01a.wav" GUIPreset="Default" />
+	<AudioFile id="dxou025" File="Audio/dxou025.wav" GUIPreset="Default" />
+	<AudioFile id="mc1ofc06" File="Audio/mc1ofc06.wav" GUIPreset="Default" />
+	<AudioFile id="mc1re102" File="Audio/mc1re102.wav" GUIPreset="Default" />
+	<AudioFile id="mc2re102" File="Audio/mc2re102.wav" GUIPreset="Default" />
+	<AudioFile id="mc3re107" File="Audio/mc3re107.wav" GUIPreset="Default" />
+	<AudioFile id="mc3re301" File="Audio/mc3re301.wav" GUIPreset="Default" />
+	<AudioFile id="mc5re203" File="Audio/mc5re203.wav" GUIPreset="Default" />
+	<AudioFile id="mc7ov101" File="Audio/mc7ov101.wav" GUIPreset="Default" />
+	<AudioFile id="mc7ov102" File="Audio/mc7ov102.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc101" File="Audio/mg1sc101.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc109" File="Audio/mg1sc109.wav" GUIPreset="Default" />
+	<AudioFile id="mg5bu103" File="Audio/mg5bu103.wav" GUIPreset="Default" />
+	<AudioFile id="mg5bu107" File="Audio/mg5bu107.wav" GUIPreset="Default" />
+	<AudioFile id="mg5sc102" File="Audio/mg5sc102.wav" GUIPreset="Default" />
+	<AudioFile id="mg5sc106" File="Audio/mg5sc106.wav" GUIPreset="Default" />
+	<AudioFile id="mg5sc201" File="Audio/mg5sc201.wav" GUIPreset="Default" />
+	<AudioFile id="mg6rb105" File="Audio/mg6rb105.wav" GUIPreset="Default" />
+	<AudioFile id="mg6rb107" File="Audio/mg6rb107.wav" GUIPreset="Default" />
+	<AudioFile id="mg6sc103" File="Audio/mg6sc103.wav" GUIPreset="Default" />
+	<AudioFile id="mg6sc202" File="Audio/mg6sc202.wav" GUIPreset="Default" />
+	<AudioFile id="mtrofu02" File="Audio/mtrofu02.wav" GUIPreset="Default" />
+	<AudioFile id="mtrofu03" File="Audio/mtrofu03.wav" GUIPreset="Default" />
+	<AudioFile id="mtrra101" File="Audio/mtrra101.wav" GUIPreset="Default" />
+	<AudioFile id="mtrra102" File="Audio/mtrra102.wav" GUIPreset="Default" />
+	<AudioFile id="mtrra103" File="Audio/mtrra103.wav" GUIPreset="Default" />
+	<AudioFile id="mtrra105" File="Audio/mtrra105.wav" GUIPreset="Default" />
+	<AudioFile id="mtrra106" File="Audio/mtrra106.wav" GUIPreset="Default" />
+	<AudioFile id="mtrra107" File="Audio/mtrra107.wav" GUIPreset="Default" />
+	<AudioFile id="mu1cr103" File="Audio/mu1cr103.wav" GUIPreset="Default" />
+	<AudioFile id="mu1cr105" File="Audio/mu1cr105.wav" GUIPreset="Default" />
+	<AudioFile id="mu1cr106" File="Audio/mu1cr106.wav" GUIPreset="Default" />
+	<AudioFile id="mu1cr107" File="Audio/mu1cr107.wav" GUIPreset="Default" />
+	<AudioFile id="mu1cr108" File="Audio/mu1cr108.wav" GUIPreset="Default" />
+	<AudioFile id="mu4co101" File="Audio/mu4co101.wav" GUIPreset="Default" />
+	<AudioFile id="mu4co102" File="Audio/mu4co102.wav" GUIPreset="Default" />
+	<AudioFile id="mu4ofu02" File="Audio/mu4ofu02.wav" GUIPreset="Default" />
+	<AudioFile id="mu4ofu03" File="Audio/mu4ofu03.wav" GUIPreset="Default" />
+	<AudioFile id="mu4ra201" File="Audio/mu4ra201.wav" GUIPreset="Default" />
+	<AudioFile id="mu4shi01" File="Audio/mu4shi01.wav" GUIPreset="Default" />
+	<AudioFile id="mu4xou02" File="Audio/mu4xou02.wav" GUIPreset="Default" />
+	<AudioFile id="mu4xou03" File="Audio/mu4xou03.wav" GUIPreset="Default" />
+	<AudioFile id="mu4xou04" File="Audio/mu4xou04.wav" GUIPreset="Default" />
+	<AudioFile id="mu4xou05" File="Audio/mu4xou05.wav" GUIPreset="Default" />
+	<AudioFile id="mu4xou07" File="Audio/mu4xou07.wav" GUIPreset="Default" />
+	<AudioFile id="mu7xou07" File="Audio/mu7xou07.wav" GUIPreset="Default" />
+	<AudioFile id="xu1cru01" File="Audio/xu1cru01.wav" GUIPreset="Default" />
+	<AudioFile id="xu2xou08" File="Audio/xu2xou08.wav" GUIPreset="Default" />
+	<AudioFile id="xu2xou20" File="Audio/xu2xou20.wav" GUIPreset="Default" />
+	<AudioFile id="xu2xou28" File="Audio/xu2xou28.wav" GUIPreset="Default" />
+	<AudioFile id="xu5xou07" File="Audio/xu5xou07.wav" GUIPreset="Default" />
+
+	<AudioFile id="vbshweaa" File="Audio/vbshweaa.wav" GUIPreset="Default" />
+	<AudioFile id="vbshweab" File="Audio/vbshweab.wav" GUIPreset="Default" />
+	
+	<AudioFile id="vshiata" File="Audio/vshiata.wav" GUIPreset="Default" />
+	<AudioFile id="vshiatb" File="Audio/vshiatb.wav" GUIPreset="Default" />
+	<AudioFile id="vshiatc" File="Audio/vshiatc.wav" GUIPreset="Default" />
+	<AudioFile id="vshiatd" File="Audio/vshiatd.wav" GUIPreset="Default" />
+	<AudioFile id="vshiate" File="Audio/vshiate.wav" GUIPreset="Default" />
+	<AudioFile id="vshimoa" File="Audio/vshimoa.wav" GUIPreset="Default" />
+	<AudioFile id="vshimob" File="Audio/vshimob.wav" GUIPreset="Default" />
+	<AudioFile id="vshimoc" File="Audio/vshimoc.wav" GUIPreset="Default" />
+	<AudioFile id="vshimod" File="Audio/vshimod.wav" GUIPreset="Default" />
+	<AudioFile id="vshisea" File="Audio/vshisea.wav" GUIPreset="Default" />
+	<AudioFile id="vshiseb" File="Audio/vshiseb.wav" GUIPreset="Default" />
+	<AudioFile id="vshisec" File="Audio/vshisec.wav" GUIPreset="Default" />
+
+	
+	
+	
+</AssetDeclaration>

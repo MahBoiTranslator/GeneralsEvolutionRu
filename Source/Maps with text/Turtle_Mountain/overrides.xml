@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+		<Weather id="Weather">
+		<Rain
+			RainTexture = "FX_GenEvo_Snow_Heavy"
+			IsRaining = "true"
+			NumRaindropsPerBox = "300"
+            RainBoxWidth =  "1000.0"
+            RainBoxLength = "1000.0"
+            RainBoxHeight = "500.0"
+            MinWidth = "450"
+            MaxWidth = "650"
+            MinHeight = "250.0"
+            MaxHeight = "350.0"
+            MinSpeed = "45.0"
+            MaxSpeed = "85.0"
+            MinAlpha = "0.1"
+            MaxAlpha = "0.3"
+            WindStrength = "10.0"
+		/>
+		<Lightning
+			LightningDuration = "30"
+			LightningChance = "0.6">
+			<LightningFactor 
+				Type = "UNIFORM"
+				Low = "0.5"
+				High = "3.0"/>
+		</Lightning>
+		<Cloud>
+			<CloudTextureSize x="660.0" y="660.0"/>
+			<CloudOffsetPerSecond x="-.03" y="-.02"/>
+		</Cloud>
+		<WeatherData id="RAINY" HasLightning="true" />
+		<WeatherData id="CLOUDYRAINY" HasLightning="true" />
+		<WeatherData id="SUNNY" HasLightning="false" />
+		<WeatherData id="CLOUDY" HasLightning="false" />
+	</Weather>
+</AssetDeclaration>

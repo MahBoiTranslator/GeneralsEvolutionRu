@@ -1,0 +1,32 @@
+Primary_Objective
+	"Destroy GLA Forces"
+End
+
+Secondary_Objective
+	"destoy the 3 little bases first"
+End
+
+Primary_Description
+	"Destroy GLA Forces"
+End
+
+Secondary_Description
+	"destoy the 3 little bases first this will make the work ease"
+End
+
+
+Hint 1
+	"you should Capture the US base in the south west general"
+End
+
+Primary_Advice
+	"Capture this oil derricks will provide us more ressources"
+End
+
+Primary_Advice_Desc
+	"Capturing this oil derrick will provide us more ressources"
+End
+
+Hint 2
+	"well done, now destroy all gla remaining forces general !"
+End

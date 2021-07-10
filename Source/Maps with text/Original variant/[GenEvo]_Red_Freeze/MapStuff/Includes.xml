@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	<Include type="all" source="Code/AmericaVehicleBattleShip.xml"/>
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	<Include type="all" source="Code/Audio.xml"/>
+	
+	
+	<Include type="all" source="Art/AVBattleSh.W3X"/>
+	
+	<!-- OVERRIDES NEED THESE -->
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVCargoPln_SKL.w3x" />
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVCargoPln_SKN.w3x" />
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVCargoPln_FX.w3x" />
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVCargoPln_DOOR.w3x" />
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVCargoPln_IDLA.w3x" />
+	
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVRaptor_COL.w3x" />
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVRaptor_SKL.w3x" />
+	<Include type="all" source="DATA:GenEvo/Data/Art/Models/W3X/AVRaptor_SKN.w3x" />
+	<!-- OVERRIDES NEED THESE -->
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	<Texture id="GenEvo_UnitPortraits_Battleship" File="Art/USBattleShip.dds" OutputFormat="A8R8G8B8" GenerateMipMaps="false" AllowAutomaticResize="false"/>
+	
+	<AudioFile id="mg5bu107" File="Audio/mg5bu107.wav" GUIPreset="Default" />
+	<AudioFile id="mg5sc106" File="Audio/mg5sc106.wav" GUIPreset="Default" />
+	<AudioFile id="mg5sc201" File="Audio/mg5sc201.wav" GUIPreset="Default" />
+	<AudioFile id="xc5ofu02" File="Audio/xc5ofu02.wav" GUIPreset="Default" />
+	<AudioFile id="xc5ofu04" File="Audio/xc5ofu04.wav" GUIPreset="Default" />
+	<AudioFile id="mc7mi101" File="Audio/mc7mi101.wav" GUIPreset="Default" />
+	<AudioFile id="mc7mi104" File="Audio/mc7mi104.wav" GUIPreset="Default" />
+	<AudioFile id="mc7mi105" File="Audio/mc7mi105.wav" GUIPreset="Default" />
+	<AudioFile id="mc7mi106" File="Audio/mc7mi106.wav" GUIPreset="Default" />
+	<AudioFile id="mc7mi202" File="Audio/mc7mi202.wav" GUIPreset="Default" />
+	<AudioFile id="mc5xoc17" File="Audio/mc5xoc17.wav" GUIPreset="Default" />
+	<AudioFile id="mc5xoc11" File="Audio/mc5xoc11.wav" GUIPreset="Default" />
+	<AudioFile id="mc7xoc02" File="Audio/mc7xoc02.wav" GUIPreset="Default" />
+	<AudioFile id="mc5xoc07" File="Audio/mc5xoc07.wav" GUIPreset="Default" />
+	<AudioFile id="mc5xoc05" File="Audio/mc5xoc05.wav" GUIPreset="Default" />
+	<AudioFile id="mc5xoc06" File="Audio/mc5xoc06.wav" GUIPreset="Default" />
+	<AudioFile id="mc5xoc09" File="Audio/mc5xoc09.wav" GUIPreset="Default" />
+	<AudioFile id="mc7xoc08" File="Audio/mc7xoc08.wav" GUIPreset="Default" />
+	<AudioFile id="mc7xoc09" File="Audio/mc7xoc09.wav" GUIPreset="Default" />
+	
+	
+	<AudioFile id="CHI_09" File="Audio/CHI_09.wav" GUIPreset="Default" />
+</AssetDeclaration>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	
+	<!-- Defaults for AudioEvents. Derive all other AudioEvents from this one -->
+	<AudioEvent id="CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="NORMAL"
+		Limit="3"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<!-- Defaults for Mission Dialogue. Derive Mission Dialogue from this one -->
+	<AudioEvent id="CC_BaseMissionDialogue" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="170" 
+		MinVolume="90"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	<!-- Defaults for unit responses. Derive unit responses responses from this one -->
+	<AudioEvent id="CC_BaseUnitResponse" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="90"
+		ShrunkenPitchModifier="1.3"
+		ShrunkenVolumeModifier="95"
+		Priority="HIGHEST"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	
+	
+	
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	<AudioEvent
+	id="GenEvo_Ambient_C130"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume = "80"
+	PerFileVolumeShift = "-5"
+	Limit = "3"
+	Control = "LOOP IMMEDIATE_DECAY_ON_KILL"
+	Type = "WORLD SHROUDED EVERYONE"
+    SubmixSlider = "SOUNDFX" >
+    <PerFilePitchShift Low = "-5" High = "5" />
+		<Attack>v130lo1a</Attack>
+		<Sound>v130lo2a</Sound>
+		<Sound>v130lo2b</Sound>
+		<Decay>v130lo3a</Decay>
+	</AudioEvent>
+	
+	
+	<AudioEvent
+	id="GenEvo_Ambient_BattleshipTurretTurnLoop"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume = "55"
+	PerFileVolumeShift = "-5"
+	Limit = "12"
+	Control = "LOOP IMMEDIATE_DECAY_ON_KILL"
+	Type = "WORLD SHROUDED EVERYONE"
+    MinRange="200"
+	MaxRange="500"
+    SubmixSlider = "AMBIENT" >
+    <PerFilePitchShift Low = "-5" High = "5" />
+		<Attack>vovelo1a</Attack>
+		<Sound>vovelo2a</Sound>
+		<Sound>vovelo2b</Sound>
+		<Decay>vovelo3a</Decay>
+  </AudioEvent>
+  
+  <AudioEvent
+	id="GenEvo_Ambient_Raptor"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume = "50"
+	PerFileVolumeShift = "-5"
+	Limit = "3"
+	Control = "LOOP IMMEDIATE_DECAY_ON_KILL"
+	Type = "WORLD SHROUDED EVERYONE"
+    SubmixSlider = "SOUNDFX" >
+    <PerFilePitchShift Low = "-5" High = "5" />
+		<Attack>vraplo1a</Attack>
+		<Sound>vraplo2a</Sound>
+		<Sound>vraplo2b</Sound>
+		<Sound>vraplo2c</Sound>
+		<Decay>vraplo3a</Decay>
+  </AudioEvent>
+  <!-- OVERRIDES NEED THESE -->
+	
+	<AudioEvent id="0mg5bu107" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>mg5bu107</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg5sc106" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>mg5sc106</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg5sc201" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>mg5sc201</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc5ofu02" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc5ofu02</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc5ofu04" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc5ofu04</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7mi101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7mi101</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7mi104" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7mi104</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7mi105" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7mi105</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7mi106" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7mi106</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7mi202" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7mi202</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5xoc07" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5xoc07</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5xoc11" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5xoc11</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5xoc17" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5xoc17</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7xoc02" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7xoc02</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5xoc05" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5xoc05</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5xoc06" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5xoc06</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5xoc09" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5xoc09</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7xoc08" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7xoc08</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7xoc09" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7xoc09</Sound> 
+	</AudioEvent>
+	
+	
+	
+	<AudioEvent id="0CHI_09" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>CHI_09</Sound> 
+	</AudioEvent>
+
+	<AudioEvent
+	id="GenEvo_GunFire_Battleship"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume="100"
+	Limit="12"
+	MinRange = "100"
+	MaxRange = "2000"
+	Type="WORLD SHROUDED EVERYONE"
+	Control="INTERRUPT"
+	Priority="HIGHEST"
+	SubmixSlider="SOUNDFX">
+	<NonInterruptibleTime Low="0.0s" High="0.9s" />
+	<PitchShift
+	Low="-5"
+	High="5" />
+		<Sound>vbshweaa</Sound> <Sound>vbshweab</Sound>
+	</AudioEvent>
+	
+	
+	
+	<AudioEvent id="America_Battleship_VoiceSelect" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshisea</Sound> 
+		<Sound>vshiseb</Sound> 
+		<Sound>vshisec</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="America_Battleship_VoiceMove" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshimoa</Sound> 
+		<Sound>vshimob</Sound> 
+		<Sound>vshimoc</Sound> 
+		<Sound>vshimod</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="America_Battleship_VoiceAttack" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshiata</Sound> 
+		<Sound>vshiatb</Sound> 
+		<Sound>vshiatc</Sound> 
+		<Sound>vshiatd</Sound>
+		<Sound>vshiate</Sound>
+	</AudioEvent>
+	
+	<!-- Intro music event -->
+	
+	<AudioEvent
+		id="GenEvo_Music_USA_10"
+		inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="120"
+		MinRange="1"
+		MaxRange="999999"
+		Limit="1"
+		Control="FADE_ON_KILL"
+		Priority="HIGHEST"
+		Type="WORLD SHROUDED EVERYONE"
+		DryLevel="100"
+		SubmixSlider="MUSIC">
+		<Sound>USA_10</Sound>
+	</AudioEvent>
+
+	<AudioEvent
+		id="GenEvo_Music_CHINA_09"
+		inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="120"
+		MinRange="1"
+		MaxRange="999999"
+		Limit="1"
+		Control="FADE_ON_KILL"
+		Priority="HIGHEST"
+		Type="WORLD SHROUDED EVERYONE"
+		DryLevel="100"
+		SubmixSlider="MUSIC">
+		<Sound>CHINA_09</Sound>
+	</AudioEvent>
+
+</AssetDeclaration>

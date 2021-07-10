@@ -1,0 +1,55 @@
+Intro_1
+	"Generals! Be on guard, these mountains are controlled by hostile GLA clan!"
+End
+
+Intro_2
+	"They're using tunnel network to move their forces!"
+End
+
+Intro_3
+	"Anyway there're good news! We've deployed additional bases for you! It will double your power!"
+End
+
+Intro_4
+	"To win this match you must defeat all your enemies and destroy GLA base hidden in mountains!"
+End
+
+Intro_5
+	"Good hunting, Generals!"
+End
+
+Primary_Objective
+	"Destroy GLA base in mountains!"
+End
+
+Skirmish_Objective
+	"Defeat your enemies"
+End
+
+Secondary_Objective
+	"Destroy GLA Sneak Attack Tunnels"
+End
+
+Primary_Description
+	"Defeat all your enemies and destroy GLA base in this location to achieve victory"
+End
+
+Secondary_Desctiption
+	"Destroy this tunnel and you'll get resources and veterancy crates"
+End
+
+Hint_1
+	"After destroying GLA tunnels you will get some money crates! Warning: destroying all Arms Dealers will kill these tunnels without providing awards!"
+End
+
+Wave_1
+	"Warning! We've located tunnels near your bases. Seems GLA deploying some light vehicles and infantry in this area!"
+End
+
+Wave_2
+	"Warning! We've located new tunnels there with more heavier scorpions and quad cannons!"
+End
+
+Wave_3
+	"Warning! GLA getting elite squads from tunnels in the center of their main base!"
+End

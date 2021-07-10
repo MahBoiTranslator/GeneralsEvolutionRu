@@ -88333,7 +88333,7 @@
 			CRC="0"
 			Description="Map:Turtle_Mountain/Desc"
 			DisplayName="[GenEvo] Turtle Mountain"
-			FileName="data\maps\turtle_mountain\turtle_mountain.map"
+			FileName="data"
 			Height="798"
 			IsMultiplayer="false"
 			IsOfficial="false"

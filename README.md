@@ -13,7 +13,7 @@
 Актуальную версию локализатора можете скачать [здесь](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v04b021/Generals.Evolution.b021.zip)
 
 ## Описание установки
-Файлы из папки Maps скопируйте в папку по пути %appdata%\Red Alert 3\Maps.
+Файлы из папки Maps скопируйте в папку по пути `%appdata%\Red Alert 3\Maps`.
 
 Оставшиеся файлы русификатора (которые не лежат в папке Maps) скопируйте в папку с модом Generals Evolution той же версии, что и русификатор (в противном случае могут возникать ошибки), подтверждая замену.
 

@@ -31954,7 +31954,7 @@
 				Value="MusicPalette_NotSet"/>
 			<StringProperty
 				Key="terrainTextureStrings"
-				Value="paa_orangedirt02;paa_orangedirt02_nrm;TCliff_Egypt01;TCliff_Egypt01_nrm;Pavement_Romania01;Pavement_Romania01_NRM;tdirt_for08;tdirt_for08_nrm;jta_browndirt03;jta_browndirt03_nrm;TDirt_YellowZone09;TDirt_YellowZone09_nrm;TDirt_Egypt03;TDirt_Egypt03_nrm;TDirt_YellowZone14;TDirt_YellowZone14_nrm;pav2_orangedirt02;pav2_orangedirt02_nrm;pov1_beachgrass01;pov1_beachgrass01_nrm;tpave_redzone01;tpave_redzone01_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;jtv2_browndirt03;jtv2_browndirt03_nrm;tdirt_shi05;tdirt_shi05_nrm;TDirt_Egypt07;TDirt_Egypt07_nrm;jtv2_browndirt01;jtv2_browndirt01_nrm;tclif_anf01;tclif_anf01_nrm;"/>
+				Value="paa_orangedirt02;paa_orangedirt02_nrm;TCliff_Egypt01;TCliff_Egypt01_nrm;tdirt_for08;tdirt_for08_nrm;jta_browndirt03;jta_browndirt03_nrm;TDirt_YellowZone09;TDirt_YellowZone09_nrm;TDirt_Egypt03;TDirt_Egypt03_nrm;TDirt_YellowZone14;TDirt_YellowZone14_nrm;pav2_orangedirt02;pav2_orangedirt02_nrm;pov1_beachgrass01;pov1_beachgrass01_nrm;tpave_redzone01;tpave_redzone01_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;jtv2_browndirt03;jtv2_browndirt03_nrm;tdirt_shi05;tdirt_shi05_nrm;TDirt_Egypt07;TDirt_Egypt07_nrm;jtv2_browndirt01;jtv2_browndirt01_nrm;tclif_anf01;tclif_anf01_nrm;"/>
 			<IntProperty
 				Key="weather"
 				Value="0"/>
@@ -31980,10 +31980,6 @@
 			BaseTexture="ART:Terrain/paa_orangedirt02.tga"
 			NormalTexture="ART:Terrain/paa_orangedirt02_nrm.tga"
 			TextureID="350789871"/>
-		<Tile
-			BaseTexture="ART:Terrain/Pavement_Romania01.tga"
-			NormalTexture="ART:Terrain/Pavement_Romania01_NRM.tga"
-			TextureID="405901548"/>
 		<Tile
 			BaseTexture="ART:Terrain/TCliff_Egypt01.tga"
 			NormalTexture="ART:Terrain/TCliff_Egypt01_nrm.tga"

@@ -1,91 +1,93 @@
 
-Defend_Airfield
+MISSIONOBJ:Sgor00_COTC__Defend_Airfield
 	"Protect your base from the incoming attack."
 End
 
-Defend_AirfieldD
+MISSIONDESC:Sgor00_COTC__Defend_AirfieldD
 	"We must keep our sea port airfield! It must not be destroyed!"
 End
 
-Defend_WarFactory
+MISSIONOBJ:Sgor00_COTC__Defend_WarFactory
 	"Defend your War Factory."
 End
 
-Defend_WarFactoryD
+MISSIONDESC:Sgor00_COTC__Defend_WarFactoryD
 	"You need to make new forces to protect your base, keep your War Factory!"
 End
 
-Destroy_EnemyWarfactory
+MISSIONOBJ:Sgor00_COTC__Destroy_EnemyWF
 	"Destroy the enemy's base."
 End
 
-Destroy_EnemyWarfactoryD
+MISSIONDESC:Sgor00_COTC__Destroy_EnemyWFD
 	"We've located the enemy's base. Get rid of them!"
 End
 
-Destroy_GLAForcesinVillage
+MISSIONOBJ:Sgor00_COTC__DestGLAForcesinVill
 	"Destroy GLA forces in the village."
 End
 
-Destroy_GLAForcesinVillageD
+MISSIONDESC:Sgor00_COTC__DestGLAForcesinVillD
 	"There are some enemy units in this area. It won't be a problem for you, will it?"
 End
 
-Intro_1
+MISSIONSTR:Sgor00_COTC__Intro_1
 	"General, GLA forces are attacking our sea port in this area! This base is our last hope for reinforcements. You must protect it at all costs."
 End
 
-Intro_2
+MISSIONSTR:Sgor00_COTC__Intro_2
 	"After securing this beach, your next objective is eliminate all GLA threat there."
 End
 
-Intro_3
+MISSIONSTR:Sgor00_COTC__Intro_3
 	"Welcome back, General!"
 End
 
-Outro
+MISSIONSTR:Sgor00_COTC__Outro
 	"Congratulations General, mission accomplished!"
 End
 
-Reinforcements
+MISSIONSTR:Sgor00_COTC__Reinforcements
 	"Reinforcements have arrived, General! Prepare to defend!"
 End
 
-Timer
+MISSIONSTR:Sgor00_COTC__Timer
 	"Reinforcements arriving at:"
 End
 
-Wave_1
+MISSIONSTR:Sgor00_COTC__Wave_1
 	"Enemy forces are coming, General! Defend your base! We are sending you reinforcements."
 End
 
-Wave_2
+MISSIONSTR:Sgor00_COTC__Wave_2
 	"Another wave incoming, keep defending!"
 End
 
-Wave_3
+MISSIONSTR:Sgor00_COTC__Wave_3
 	"Sir, intel reports GLA sending heavy armed long-range rocket launchers. Be prepared!"
 End
 
-Wave_4
+MISSIONSTR:Sgor00_COTC__Wave_4
 	"Sir, reinforcements are on the way! Keep protecting your base until they arrive!"
 End
 
-Wave_5
+MISSIONSTR:Sgor00_COTC__Wave_5
 	"New GLA attacks keep coming! Hold your ground general!"
 End
 
-Wave_6
+MISSIONSTR:Sgor00_COTC__Wave_6
 	"Another wave, sir! Keep your eyes open!"
 End
 
-Wave_Fin
+MISSIONSTR:Sgor00_COTC__Wave_Fin
 	"Intel reports this is the last GLA attack. Give'em hell, General and then you'll be able to counter strike!"
 End
 
-ArmadilloOutpost_BuildHint
+MISSIONSTR:Sgor00_COTC__ArmadilloOutpost_BuildHint
 	"This Armadillo Outpost can help you to protect your base. Build it from War Factory and deploy as your base defence. Call an Echo Squad rocket paratroopers support to garrison its bunker!"
 End
+
+
 
 Name:AmericaVehicleBattleShip
 	"Battleship"

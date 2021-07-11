@@ -82343,10 +82343,6 @@
 			NormalTexture="ART:Terrain/RA3Grid1_NRM.tga"
 			TextureID="2945728103"/>
 		<Tile
-			BaseTexture="ART:Terrain/TDirt_Easter10.tga"
-			NormalTexture="ART:Terrain/TDirt_Easter10_NRM.tga"
-			TextureID="3021932781"/>
-		<Tile
 			BaseTexture="ART:Terrain/TDirt_Easter09.tga"
 			NormalTexture="ART:Terrain/TDirt_Easter09_NRM.tga"
 			TextureID="3051908823"/>

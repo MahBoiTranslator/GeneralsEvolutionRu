@@ -18444,7 +18444,7 @@
 				Value="MusicPalette_NotSet"/>
 			<StringProperty
 				Key="terrainTextureStrings"
-				Value="TDirt_Easter08;TDirt_Easter08_NRM;TDirt_YellowZone09;TDirt_YellowZone09_nrm;tdirt_ith05;tdirt_ith05_nrm;TDirt_Egypt01;TDirt_Egypt01_nrm;tdirt_ith06;tdirt_ith06_nrm;TDirt_Easter09;TDirt_Easter09_NRM;TCliff_CapeCod01;TCliff_CapeCod01_nrm;TCliff_Egypt01;TCliff_Egypt01_nrm;TDirt_Easter10;TDirt_Easter10_NRM;TDirt_YellowZone14;TDirt_YellowZone14_nrm;TDirt_Egypt03;TDirt_Egypt03_nrm;TCliff_CapeCod03;TCliff_CapeCod03_nrm;TDirt_YellowZone07;TDirt_YellowZone07_nrm;TDirt_Egypt09;TDirt_Egypt09_nrm;tdirt_rhu07a;tdirt_rhu07a_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;TDirt_YellowZone04b;TDirt_YellowZone04b_nrm;TDirt_Easter11;TDirt_Easter11_NRM;TCliff_Easter01;TCliff_Easter01_NRM;TDirt_YellowZone03b;TDirt_YellowZone03b_nrm;tpave_redzone01;tpave_redzone01_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;Pavement_Odessa01;Pavement_Odessa01_NRM;"/>
+				Value="TDirt_Easter08;TDirt_Easter08_NRM;TDirt_YellowZone09;TDirt_YellowZone09_nrm;tdirt_ith05;tdirt_ith05_nrm;TDirt_Egypt01;TDirt_Egypt01_nrm;tdirt_ith06;tdirt_ith06_nrm;TDirt_Easter09;TDirt_Easter09_NRM;TCliff_CapeCod01;TCliff_CapeCod01_nrm;TCliff_Egypt01;TCliff_Egypt01_nrm;TDirt_YellowZone14;TDirt_YellowZone14_nrm;TDirt_Egypt03;TDirt_Egypt03_nrm;TCliff_CapeCod03;TCliff_CapeCod03_nrm;TDirt_YellowZone07;TDirt_YellowZone07_nrm;TDirt_Egypt09;TDirt_Egypt09_nrm;tdirt_rhu07a;tdirt_rhu07a_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;TDirt_YellowZone04b;TDirt_YellowZone04b_nrm;TCliff_Easter01;TCliff_Easter01_NRM;TDirt_YellowZone03b;TDirt_YellowZone03b_nrm;tpave_redzone01;tpave_redzone01_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;Pavement_Odessa01;Pavement_Odessa01_NRM;"/>
 			<IntProperty
 				Key="weather"
 				Value="0"/>
@@ -18523,10 +18523,6 @@
 			NormalTexture="ART:Terrain/TDirt_YellowZone09_nrm.tga"
 			TextureID="1243621058"/>
 		<Tile
-			BaseTexture="ART:Terrain/TDirt_Easter11.tga"
-			NormalTexture="ART:Terrain/TDirt_Easter11_NRM.tga"
-			TextureID="1416074446"/>
-		<Tile
 			BaseTexture="ART:Terrain/TPave_YellowZone03.tga"
 			NormalTexture="ART:Terrain/TPave_YellowZone03_nrm.tga"
 			TextureID="1787946311"/>
@@ -18554,10 +18550,6 @@
 			BaseTexture="ART:Terrain/TCliff_Easter01.tga"
 			NormalTexture="ART:Terrain/TCliff_Easter01_NRM.tga"
 			TextureID="2975386719"/>
-		<Tile
-			BaseTexture="ART:Terrain/TDirt_Easter10.tga"
-			NormalTexture="ART:Terrain/TDirt_Easter10_NRM.tga"
-			TextureID="3021932781"/>
 		<Tile
 			BaseTexture="ART:Terrain/TDirt_Easter09.tga"
 			NormalTexture="ART:Terrain/TDirt_Easter09_NRM.tga"

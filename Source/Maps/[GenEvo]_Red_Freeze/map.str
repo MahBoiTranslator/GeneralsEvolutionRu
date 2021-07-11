@@ -1,32 +1,34 @@
-Primary_Objective
-	"Destroy GLA Forces"
+MISSIONOBJ:aymcam_RF__Primary_Objective
+	"Destroy GLA Forces."
 End
 
-Secondary_Objective
-	"destoy the 3 little bases first"
+MISSIONOBJ:aymcam_RF__Secondary_Objective
+	"Destroy the 3 little bases first."
 End
 
-Primary_Description
-	"Destroy GLA Forces"
+MISSIONOBJ:aymcam_RF__Primary_Advice
+	"Capture this oil derricks will provide us more ressources."
 End
 
-Secondary_Description
-	"destoy the 3 little bases first this will make the work ease"
+MISSIONDESC:aymcam_RF__Primary_Description
+	"Destroy GLA Forces."
+End
+
+MISSIONDESC:aymcam_RF__Secondary_Description
+	"Destoy the 3 little bases first this will make the work ease."
+End
+
+MISSIONDESC:aymcam_RF__Primary_Advice_Desc
+	"Capturing this oil derrick will provide us more ressources."
 End
 
 
-Hint 1
-	"you should Capture the US base in the south west general"
+
+
+MISSIONSTR:aymcam_RF__Hint_1
+	"You should Capture the US base in the south west general."
 End
 
-Primary_Advice
-	"Capture this oil derricks will provide us more ressources"
-End
-
-Primary_Advice_Desc
-	"Capturing this oil derrick will provide us more ressources"
-End
-
-Hint 2
-	"well done, now destroy all gla remaining forces general !"
+MISSIONSTR:aymcam_RF__Hint_2
+	"Well done, now destroy all gla remaining forces general!"
 End

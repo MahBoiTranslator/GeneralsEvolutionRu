@@ -10,7 +10,12 @@
 
 Для работы переведённых карт их оригиналы с moddb не требуются.
 
-Актуальную версию локализатора можете скачать [здесь](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases/download/v04b021/Generals.Evolution.b021.zip)
+Локализатор поддерживает перевод следующих карт:
+* [Turtle Mountain](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/turtle-mountain)
+* [Poisoned Hope](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/poisoned-hope)
+* [Red Freeze](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze)
+* [Falling Dragon](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon)
+* [Crisis on the Coast](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack)
 
 ## Описание установки
 Файлы из папки Maps скопируйте в папку по пути `%appdata%\Red Alert 3\Maps`.
@@ -27,11 +32,4 @@
 * [m3tro](https://www.youtube.com/c/m3tro_romhack)                  : Помощь со скриптами
 
 ## Прочая информация
-Подробнее про мод можно [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появлятся в [группе ВК сайта C&C Series](https://vk.com/cncseries).
-
-Локализатор поддерживает перевод следующих карт:
-* [Turtle Mountain](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/turtle-mountain)
-* [Poisoned Hope](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/poisoned-hope)
-* [Red Freeze](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze)
-* [Falling Dragon](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon)
-* [Crisis on the Coast](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack)
+Подробнее про мод можно прочитать [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появлятся в [группе ВК сайта C&C Series](https://vk.com/cncseries).

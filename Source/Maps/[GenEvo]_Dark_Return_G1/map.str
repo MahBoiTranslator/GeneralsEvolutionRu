@@ -1,40 +1,40 @@
-Primary_Objective
+MISSIONOBJ:aymcam_G1__Primary_Objective
 	"Destroy the Chinese Propaganda Towers in the area"
 End
 
-Secondary_Objective
+MISSIONOBJ:aymcam_G1__Secondary_Objective
 	"Destroy the rest of the chinese forces"
 End
 
-Primary_Description
+MISSIONDESC:aymcam_G1__Primary_Description
 	"Destroy those Propaganda Towers"
 End
 
-Secondary_Description
+MISSIONDESC:aymcam_G1__Secondary_Description
 	"The Propaganda Towers have been taken care of. Kill the rest, General, and redeem our cause!"
 End
 
-Start_Objective
+MISSIONOBJ:aymcam_G1__Start_Objective
 	"we need to secure the base first !"
 End
 
-Secondary_Advice
+MISSIONOBJ:aymcam_G1__Secondary_Advice
 	"Capture those ressources to fund this operation"
 End
 
-Secondary_Advice_Desc
+MISSIONDESC:aymcam_G1__Secondary_Advice_Desc
 	"Capture the oil derricks so we can support our cause"
 End
 
-Hint
+MISSIONOBJ:aymcam_G1__Hint
 	"Save the POW troops! They have access to the GPS Scrambler!"
 End
 
-China
+MISSIONSTR:aymcam_G1__China
 	"General, the Chinsese have taken over Baghdad, our last bastion and our only major territory in this region !"
 End
 
-Gla
+MISSIONSTR:aymcam_G1__Gla
 	"They have also captured our last base in the southwest. Retake it and drive these Chinese infidels off the city !"
 End
 

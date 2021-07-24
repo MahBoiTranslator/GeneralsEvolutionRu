@@ -16,6 +16,7 @@
 * [Red Freeze](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze)
 * [Falling Dragon](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon)
 * [Crisis on the Coast](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack)
+* [First GLA Campaign Pack](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/first-gla-pack)
 
 ## Описание установки
 Файлы из папки Maps скопируйте в папку по пути `%appdata%\Red Alert 3\Maps`.

@@ -14,11 +14,12 @@
 	Для работы переведённых карт их оригиналы с moddb не требуются.
 
 	Локализатор поддерживает перевод следующих карт:
-		* Turtle Mountain     : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/turtle-mountain
-		* Poisoned Hope       : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/poisoned-hope
-		* Red Freeze          : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze
-		* Falling Dragon      : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon
-		* Crisis on the Coast : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack
+		* Turtle Mountain         : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/turtle-mountain
+		* Poisoned Hope           : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/poisoned-hope
+		* Red Freeze              : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze
+		* Falling Dragon          : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon
+		* Crisis on the Coast     : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack
+		* First GLA Campaign Pack : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/first-gla-pack
 
 	Актуальную версию локализатора можете скачать с репозитория на гитхабе: 
 		https://github.com/MahBoiTranslator/GeneralsEvolutionRu

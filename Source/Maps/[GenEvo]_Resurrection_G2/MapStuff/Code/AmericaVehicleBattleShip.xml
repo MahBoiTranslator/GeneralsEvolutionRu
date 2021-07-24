@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<Tags></Tags>
+	<Includes>		
+		<!-- Base Object -->
+		<Include type="instance" source="DATA:BaseObjects/BaseVehicle.xml" />
+		<Include type="instance" source="DATA:BaseObjects/BaseProjectile.xml"/>
+	</Includes>
+	
+	<!-- Dummy Command Set -->
+	<LogicCommandSet
+		id="AmericaVehicleBattleShipCommandSet">
+		<Cmd>Command_AttackMove</Cmd>
+		<Cmd>Command_MoveToPositionAndCollect</Cmd>
+	</LogicCommandSet>
+	
+	<!-- Unit Portrait -->
+	<PackedTextureImage id="Portrait_GenEvo_Battleship_SM" Texture="GenEvo_UnitPortraits_Battleship" Rotated="false">
+		<Dimensions x="106" y="106"/>
+		<Coords x="1" y="154"/>
+		<TextureDimensions x="204" y="261"/>
+	</PackedTextureImage>
+	<PackedTextureImage id="Portrait_GenEvo_Battleship" Texture="GenEvo_UnitPortraits_Battleship" Rotated="false">
+		<Dimensions x="202" y="152"/>
+		<Coords x="1" y="1"/>
+		<TextureDimensions x="204" y="261"/>
+	</PackedTextureImage>
+	
+	<!-- Dummy Locomotor -->
+	<LocomotorTemplate
+		id="AmericaVehicleBattleShipLocomotor"
+		Surfaces="DEEP_WATER"
+		TurnTimeSeconds="8.0s"
+		TurnTimeDamagedSeconds="10.0s"
+		MaxSpeedDamaged="75%"
+		AccelerationSeconds="0.01s"
+		BrakingSeconds="0.01s"
+		SlowTurnRadius="0.0"
+		FastTurnRadius="20.0"
+		MinTurnSpeed="0%"
+		PreferredHeight="0"
+		BehaviorZ="SEA_LEVEL"
+		Appearance="SHIP"
+		ActiveModelConditions="OVER_WATER"
+		ActiveObjectStatus="WATER_LOCOMOTOR_ACTIVE OVER_WATER"
+		ClampOrientationToPathTangent="true"
+		ReorientIfTurnTooSharp="true"
+		TurnThresholdHS="90d"
+		AccelPitchLimit="10d"
+		BounceKick="2d"
+		PitchStiffness="0.2"
+		RollStiffness="0.01"
+		PitchDamping="0.2"
+		RollDamping="0.05"
+		ForwardAccelerationPitchFactor="0.01"
+		LateralAccelerationRollFactor="-0.01"						
+	
+		ElevatorCorrectionDegree="0.02"
+		ElevatorCorrectionRate="0.04"
+		AeleronCorrectionDegree="0.05"
+		AeleronCorrectionRate="0.06"	
+	/>
+
+	<!-- Unit Itself -->
+	<GameObject
+		id="AlliedAntiStructureShip"
+		inheritFrom="BaseVehicle"
+		SelectPortrait="Portrait_GenEvo_Battleship"
+		ButtonImage="Portrait_GenEvo_Battleship_SM"
+		Side="Allies"
+		SubGroupPriority="520"
+		EditorSorting="UNIT"
+		TransportSlotCount="10"
+		BuildTime="1"
+		CommandSet="AmericaVehicleBattleShipCommandSet"
+		KindOf="SELECTABLE CAN_ATTACK CAN_CAST_REFLECTIONS SCORE VEHICLE CAN_BE_FAVORITE_UNIT SHIP SIEGE_WEAPON T3_UNIT"
+		RadarPriority="UNIT"
+		ProductionQueueType="WATERCRAFT"
+		UnitCategory="VEHICLE"
+		WeaponCategory="CANNON"
+		VoicePriority="188"
+		EditorName="AlliedAntiStructureShip"
+		Description="Desc:AmericaVehicleBattleShip"
+		TypeDescription="Type:AmericaVehicleBattleShip"
+		HealthBoxHeightOffset="30"
+		UnitIntro="Japan_ShogunBattleship_UnitIntro">
+		<DisplayName
+			xai:joinAction="Replace" xmlns:xai="uri:ea.com:eala:asset:instance">Name:AmericaVehicleBattleShip</DisplayName>
+		<ObjectResourceInfo>
+			<BuildCost Account="=$ACCOUNT_ORE" Amount="2200"/>
+		</ObjectResourceInfo>
+		<ArmorSet
+			Armor="JapanAntiStructureShipArmor"
+			DamageFX="VehicleDamageFX" />
+		<LocomotorSet
+			id="Locomotor_Water"
+			Locomotor="AmericaVehicleBattleShipLocomotor"
+			Condition="NORMAL"
+			Speed="30.0" />
+		<LocomotorSet
+			id="Locomotor_LeavingFactory"
+			Locomotor="JapanAntiStructureShipWaterLocomotor_LeavingFactory"
+			Condition="EXITING_PRODUCTION_STRUCTURE"
+			Speed="30.0" />
+		<SkirmishAIInformation
+			UnitBuilderStandardCombatUnit="true" />
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_Draw"
+				OkToChangeModelColor="true"
+				InitialRecoilSpeed="0.5"
+				MaxRecoilDistance="6.0"
+				RecoilDamping="5.0"
+				RecoilSettleSpeed="1.0">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT"
+					RetainSubObjects="true">
+					<Model
+						Name="AVBattleSh" />
+					<WeaponFireFXBone
+						WeaponSlotID="1"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="TUR1MUZZLE" />
+					<WeaponRecoilBone
+						WeaponSlotID="1"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="TUR1BARREL" />
+					<WeaponLaunchBone
+						WeaponSlotID="1"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="TUR1MUZZLE" />
+					<Turret
+						TurretNameKey="TURRET01"
+						TurretPitch="TURRETEL01"
+						TurretID="1" />
+					<WeaponFireFXBone
+						WeaponSlotID="2"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="TUR2MUZZLE" />
+					<WeaponRecoilBone
+						WeaponSlotID="2"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="TUR2BARREL" />
+					<WeaponLaunchBone
+						WeaponSlotID="2"
+						WeaponSlotType="PRIMARY_WEAPON"
+						BoneName="TUR2MUZZLE" />          
+					<Turret
+						TurretNameKey="TURRET02"
+						TurretPitch="TURRETEL02"
+						TurretID="2" />          
+				</ModelConditionState>			
+
+
+				<AnimationState
+						ParseCondStateType="PARSE_DEFAULT">
+					<Animation
+						AnimationName="AVBattleSh"
+						AnimationMode="LOOP"
+						AnimationSpeedFactorMin="0.9"
+						AnimationSpeedFactorMax="1.1"
+						AnimationBlendTime="0" />
+					<ParticleSysBone
+						BoneName="TREADFX01"
+						FXParticleSystemTemplate="LargeShipWakeIdle"
+						FollowBone="false" />
+					<ParticleSysBone
+						BoneName="TREADFX02"
+						FXParticleSystemTemplate="LargeShipWakeIdle"
+						FollowBone="false" />
+					<ParticleSysBone
+						BoneName="TREADFX03"
+						FXParticleSystemTemplate="LargeShipWakeIdle"
+						FollowBone="false" />
+					<ParticleSysBone
+						BoneName="TREADFX04"
+						FXParticleSystemTemplate="LargeShipWakeIdle"
+						FollowBone="false" />
+					<ParticleSysBone
+						BoneName="TREADFX05"
+						FXParticleSystemTemplate="LargeShipWakeIdle"
+						FollowBone="false" />
+				</AnimationState>     
+        
+				<AnimationState
+						ParseCondStateType="PARSE_NORMAL"
+						ConditionsYes="MOVING">
+					<ParticleSysBone
+						BoneName="TREADFX01"
+						FXParticleSystemTemplate="JapanCapitalShipWake"
+						FollowBone="true" />
+					<ParticleSysBone
+						BoneName="TREADFX02"
+						FXParticleSystemTemplate="JapanCapitalShipWake"
+						FollowBone="true" />
+					<ParticleSysBone
+						BoneName="TREADFX03"
+						FXParticleSystemTemplate="JapanCapitalShipWake"
+						FollowBone="true" />
+					<ParticleSysBone
+						BoneName="TREADFX04"
+						FXParticleSystemTemplate="JapanCapitalShipWake"
+						FollowBone="true" />
+					<ParticleSysBone
+						BoneName="TREADFX05"
+						FXParticleSystemTemplate="JapanCapitalShipWake"
+						FollowBone="true" />
+				</AnimationState>
+      </ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<WeaponSetUpdate
+				id="ModuleTag_WeaponSetUpdate">
+				<WeaponSlotTurret
+					ID="1">
+					<Weapon
+						Ordering="PRIMARY_WEAPON"
+						Template="BattleshipUSSBenderGun"/>						
+					<TurretSettings
+						MaxDeflectionClockwise="120d"
+						MaxDeflectionAntiClockwise="120d"
+						AllowsPitch="true"
+						PitchHeight="63%"
+						TurretPitchRate="10"
+						TurretTurnRate="80"
+						MinIdleScanTime="1.0s"
+						MaxIdleScanTime="5.0s"
+						MinIdleScanAngle="0.0"
+						MaxIdleScanAngle="90.0">
+						<TurretAITargetChooserData
+							CanPickDynamicTargets="true"
+							CanAcquireDynamicIfAssignedOutOfRange="true" 
+							IdleScanDelay="=$MEDIUM_IDLE_SCAN_DELAY"/>
+					</TurretSettings>
+				</WeaponSlotTurret>
+				<WeaponSlotTurret
+					ID="2">
+					<Weapon
+						Ordering="PRIMARY_WEAPON"
+						Template="BattleshipUSSBenderGun" />							
+					<TurretSettings
+						MaxDeflectionClockwise="120d"
+						MaxDeflectionAntiClockwise="120d"
+						AllowsPitch="true"
+						PitchHeight="63%"
+						TurretPitchRate="10"
+						TurretTurnRate="80"
+						MinIdleScanTime="1.0s"
+						MaxIdleScanTime="5.0s"
+						MinIdleScanAngle="0.0"
+						MaxIdleScanAngle="90.0">
+						<TurretAITargetChooserData
+							CanPickDynamicTargets="true"
+							CanAcquireDynamicIfAssignedOutOfRange="true" />
+					</TurretSettings>
+				</WeaponSlotTurret>
+			</WeaponSetUpdate>
+
+			<Physics
+				id="ModuleTag_Physics" />
+			<!--
+			<CreateObjectDie
+				id="ModuleTag_CreateObjectDie"
+				CreationList="AmericaBattleship_Die_OCL">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</CreateObjectDie>
+			-->
+			<DestroyDie
+				id="ModuleTag_Die">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+			<FXListBehavior
+				id="ModuleTag_FXList">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					Index="onDeath"
+					FX="FX_JapanCapitalShipDie" />
+				<Event
+					Index="onDeath"
+					FX="FX_LargeBuildingDieExplosionRumble" />
+			</FXListBehavior>
+			
+			<DynamicsUpdate
+				id="ModuleTag_DefaultDynamicsUpdate"
+				xai:joinAction="Remove" />
+<!--
+			<LUAEventList
+				id="ModuleTag_LUAEventList"
+				EventListName="JapanAntiStructureShipFunctions"
+			/>
+-->
+		</Behaviors>
+		<AI>
+			<AIUpdate
+				id="ModuleTag_AI"
+				AutoAcquireEnemiesWhenIdle="YES"
+				StateMachine="UnitAIStateMachine">
+				<UnitAITargetChooserData
+					CanPickDynamicTargets="false"
+					RotateToTargetWhenAiming="false"
+					CanChaseAttack="false"/>
+			</AIUpdate>
+		</AI>
+		<Body>
+			<ActiveBody
+				id="ModuleTag_Body"
+				MaxHealth="1500" />
+		</Body>
+		<Geometry>
+<Shape
+	Type="BOX"
+	ContactPointGeneration="VEHICLE"
+	MajorRadius="121.039"
+	MinorRadius="23.1169"
+	Height="31.6883">
+	<Offset
+		x="-44.4611"
+		y="-6.3811"
+		z="0.0"/>
+</Shape>
+<Shape
+	Type="BOX"
+	ContactPointGeneration="VEHICLE"
+	MajorRadius="46.6507"
+	MinorRadius="15.9788"
+	Height="20.203">
+	<Offset
+		x="125.3"
+		y="-4.75743"
+		z="0.0"/>
+</Shape>
+<Shape
+	Type="BOX"
+	ContactPointGeneration="VEHICLE"
+	MajorRadius="7.14286"
+	MinorRadius="7.01299"
+	Height="65.974">
+	<Offset
+		x="-16.3712"
+		y="-8.83717"
+		z="31.8206"/>
+</Shape>
+<Shape
+	Type="BOX"
+	ContactPointGeneration="VEHICLE"
+	MajorRadius="23.6364"
+	MinorRadius="12.8571"
+	Height="28.8312">
+	<Offset
+		x="14.9277"
+		y="-6.10991"
+		z="32.8651"/>
+</Shape>
+		</Geometry>
+		<ClientBehaviors>
+		
+			<ModelConditionAudioLoopClientBehavior id="ModuleTag_ShrunkenVoice">
+				<ModelConditionSound Sound="JAP_Shogun_VoiceShrunken" RequiredFlags="SHRINK_EFFECT" />
+			</ModelConditionAudioLoopClientBehavior>
+			
+			<ModelConditionAudioLoopClientBehavior xai:joinAction="Replace" xmlns:xai="uri:ea.com:eala:asset:instance" id="ModuleTag_MagneticSatelliteSuckedAway">
+				<ModelConditionSound Sound="SOV_MagneticSatellite_SuckedAwayWater" RequiredFlags="SUCKED_UP_HIGH" />
+			</ModelConditionAudioLoopClientBehavior>
+			
+		</ClientBehaviors>
+		<AudioArrayVoice>
+			<AudioEntry Sound="America_Battleship_VoiceAttack" AudioType="voiceAttack" />
+			<AudioEntry Sound="America_Battleship_VoiceSelect" AudioType="voiceCreated" />
+			<AudioEntry Sound="America_Battleship_VoiceMove" AudioType="voiceMove" />
+			<AudioEntry Sound="America_Battleship_VoiceMove" AudioType="voiceAttackAfterMoving" />
+			<AudioEntry Sound="America_Battleship_VoiceMove" AudioType="voiceRetreatToCastle" />
+			<AudioEntry Sound="America_Battleship_VoiceSelect" AudioType="voiceSelect" />
+			<AudioEntry Sound="America_Battleship_VoiceSelect" AudioType="voiceSelectBattle" />
+			<AudioEntry Sound="America_Battleship_VoiceSelect" AudioType="voiceSelectUnderFire" />
+		</AudioArrayVoice>
+		<AudioArraySound>
+		
+			<AudioEntry
+				Sound="SOV_Dreadnought_MoveLoopWaterMS"
+				AudioType="soundMoveLoop" />
+			<AudioEntry
+				Sound="SOV_Dreadnought_MoveStart"
+				AudioType="soundMoveStart" />
+			<AudioEntry
+				Sound="SOV_Dreadnought_IdleLoop"
+				AudioType="soundAmbient" />
+				
+			<AudioEntry
+				Sound="AudioEvent:GenEvo_Ambient_BattleshipTurretTurnLoop"
+				AudioType="soundTurretMoveLoop" />	
+				
+			<AudioEntry
+				Sound="VehicleCrush"
+				AudioType="soundCrushing" />	
+		</AudioArraySound>
+		<VisionInfo
+			xai:joinAction="Replace"
+			VisionRange="750"
+			ShroudClearingRange="750" />
+		<CrusherInfo
+			id="id_CrusherInfo"
+			CrusherLevel="1"
+			CrushableLevel="30">
+			<ExtraCrushLevels CrusherLevel="40" CrushableLevel="30" ModelConditionMatch="USER_1" />
+		</CrusherInfo>
+	</GameObject>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<GameObject
+		id="USSBenderGunShell"
+		inheritFrom="BaseProjectile" 
+		Side="Allies" 
+		Scale="1.25"
+		EditorName="USSBenderGunShell">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_ScriptedModelDraw">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="FXSovietShell" />
+					<!--
+					<ParticleSysBone
+						BoneName="NONE"
+						FXParticleSystemTemplate="GenEvo_ParticleEffect_GenericShellTrail_Light"
+						FollowBone="true" />
+					<ParticleSysBone
+						BoneName="NONE"
+						FXParticleSystemTemplate="GenEvo_ParticleEffect_GenericShellTrail_LineContrail"
+						FollowBone="true" />
+					-->
+					<ParticleSysBone
+						BoneName="NONE"
+						FXParticleSystemTemplate="GenEvo_ParticleEffect_GenericShellTrail_Smoke"
+						FollowBone="true" />	
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<FXListBehavior
+				id="ModuleTag_FXLists">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					Index="onDeath"
+					FX="FX_GenericArtilleryShell_HitGround" />
+			</FXListBehavior>
+			<DestroyDie
+				id="ModuleTag_Die">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+			<BezierProjectile
+				id="ModuleTag_BezierProjectileBehavior"
+				Flags="ADJUST_STRAIGHT_ONLY DETONATE_CALLS_KILL ORIENT_TO_FLIGHT_PATH"
+				FirstHeightMin="0"
+				FirstHeightMax="0"
+				SecondHeightMin="0"
+				SecondHeightMax="0"
+				FirstPercentIndent="33"
+				SecondPercentIndent="66"
+				CurveFlattenMinDist="300"
+				FlightPathAdjustDistPerSecond="300"
+				GroundHitFX=""/>
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="ModuleTag_ActiveBody"
+				MaxHealth="100.0" />
+		</Body>
+		<Geometry
+			IsSmall="true">
+			<Shape
+				Type="SPHERE"
+				MajorRadius="0.8"></Shape>
+		</Geometry>
+		<VisionInfo
+			VisionRange="0" />
+		</GameObject>
+	
+	
+	<GameObject
+		id="HeroicUSSBenderGunShell"
+		inheritFrom="BaseProjectile" 
+		Side="Allies"
+		Scale="1.25"
+		EditorName="HeroicUSSBenderGunShell">
+		<Draws>
+			<ScriptedModelDraw
+				id="ModuleTag_ScriptedModelDraw">
+				<ModelConditionState
+					ParseCondStateType="PARSE_DEFAULT">
+					<Model
+						Name="FXSovietShell" />
+					<!--
+					<ParticleSysBone
+						BoneName="NONE"
+						FXParticleSystemTemplate="GenEvo_ParticleEffect_HeroicShellTrail_Light"
+						FollowBone="true" />
+					<ParticleSysBone
+						BoneName="NONE"
+						FXParticleSystemTemplate="GenEvo_ParticleEffect_HeroicShellTrail_LineContrail"
+						FollowBone="true" />
+					-->
+					<ParticleSysBone
+						BoneName="NONE"
+						FXParticleSystemTemplate="GenEvo_ParticleEffect_GenericShellTrail_Smoke"
+						FollowBone="true" />
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<FXListBehavior
+				id="ModuleTag_FXLists">
+				<DieMuxData
+					DeathTypes="ALL" />
+				<Event
+					Index="onDeath"
+					FX="FX_GenericArtilleryShell_HitGround" />
+			</FXListBehavior>
+			<DestroyDie
+				id="ModuleTag_Die">
+				<DieMuxData
+					DeathTypes="ALL" />
+			</DestroyDie>
+			<BezierProjectile
+				id="ModuleTag_BezierProjectileBehavior"
+				Flags="ADJUST_STRAIGHT_ONLY DETONATE_CALLS_KILL ORIENT_TO_FLIGHT_PATH"
+				FirstHeightMin="0"
+				FirstHeightMax="0"
+				SecondHeightMin="0"
+				SecondHeightMax="0"
+				FirstPercentIndent="33"
+				SecondPercentIndent="66"
+				CurveFlattenMinDist="300"
+				FlightPathAdjustDistPerSecond="300"
+				GroundHitFX=""/>
+		</Behaviors>
+		<Body>
+			<ActiveBody
+				id="ModuleTag_ActiveBody"
+				MaxHealth="100.0" />
+		</Body>
+		<Geometry
+			IsSmall="true">
+			<Shape
+				Type="SPHERE"
+				MajorRadius="0.8"></Shape>
+		</Geometry>
+		<VisionInfo
+			VisionRange="0" />
+	</GameObject>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<WeaponTemplate
+		id="BattleshipUSSBenderGun"
+		AttackRange="750.0"
+		MinimumAttackRange="200"
+		WeaponSpeed="750"
+		ScatterRadius="60"		
+		FireSound="GenEvo_GunFire_Battleship"
+		FireFX="FX_BigGenericTankGun"
+		FireVeteranFX="FX_BigGenericTankGun_Heroic"
+		RadiusDamageAffects="ENEMIES"
+		CanFireWhileMoving="true"
+		ClipSize="3"
+		ReAcquireDetailType="PRE_FIRE"
+		Flags="RELOAD_WHEN_ATTACK_STOPS FORCE_EMPTY_ENTIRE_CLIP"
+		ShotsPerBarrel="1"
+		RequiredAntiMask="ANTI_GROUND ANTI_STRUCTURE ANTI_WATER"
+		ProjectileCollidesWith="ALLIES ENEMIES NEUTRAL STRUCTURES WALLS"
+		WeaponRecoil="0.25d"
+		AcceptableAimDelta="1d"
+		RevealShroudOnFire="true">
+		<CoolDownDelayBetweenShots
+			MinSeconds="0.75s"
+			MaxSeconds="0.75s" />
+		<ClipReloadTime
+			MinSeconds="5.0s"
+			MaxSeconds="5.0s"
+		/>
+		<Nuggets>
+			<ProjectileNugget
+				ProjectileTemplate="USSBenderGunShell"
+				WarheadTemplate="BattleshipUSSBenderGunWarhead">
+				<VeterancyProjectiles
+					VeterancyLevel="HEROIC"
+					ProjectileTemplate="HeroicUSSBenderGunShell"/>
+			</ProjectileNugget>
+			<SuppressionNugget
+				Radius="100.0"
+				Suppression="100"
+				DurationSeconds="5s" 
+			/>
+		</Nuggets>
+	</WeaponTemplate>
+
+	<WeaponTemplate
+		id="BattleshipUSSBenderGunWarhead"
+		ProjectileCollidesWith = "ALLIES ENEMIES NEUTRAL STRUCTURES WALLS"
+		RadiusDamageAffects="ALLIES ENEMIES NEUTRALS"
+		RequiredAntiMask="ANTI_STRUCTURE ANTI_WATER ANTI_GROUND"
+		Flags="NOT_ATTRACTED_BY_MAGNETS">
+		<Nuggets>
+			<DamageNugget
+				Damage="300.0"
+				Radius="22.5"
+				DamageTaperOff="0.0"
+				DamageType="GUN"
+				DamageFXType="GDI_CANNON"
+				DeathType="EXPLODED"> 
+		</DamageNugget>
+		</Nuggets>
+	</WeaponTemplate>
+</AssetDeclaration>

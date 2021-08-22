@@ -20,6 +20,8 @@
 		* Falling Dragon          : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon
 		* Crisis on the Coast     : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack
 		* First GLA Campaign Pack : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/first-gla-pack
+		* Hail Field              : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps
+		* Nod Valves              : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/tiberian-sun-22nd-anniversary-nod-valves
 
 	Актуальную версию локализатора можете скачать с репозитория на гитхабе: 
 		https://github.com/MahBoiTranslator/GeneralsEvolutionRu

@@ -35,4 +35,4 @@
 * [m3tro](https://www.youtube.com/c/m3tro_romhack)                  : Помощь со скриптами
 
 ## Прочая информация
-Подробнее про мод можно прочитать [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появлятся в [группе ВК сайта C&C Series](https://vk.com/cncseries).
+Подробнее про мод можно почитать [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появляться в [группе ВКонтакте сайта C&C Series](https://vk.com/cncseries).

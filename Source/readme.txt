@@ -1,4 +1,4 @@
-Русификатор мода Generals Evolution на Red Alert 3
+Русификатор мода Generals Evolution на Red Alert 3 версии 0.21
 
 Описание локализатора
 	Данный локализатор является неофициальным языковым патчем для мода Generals Evolution, 

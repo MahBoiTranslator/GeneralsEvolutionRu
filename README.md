@@ -6,19 +6,23 @@
 	+переведено полностью внутриигровое меню
 	+переведены описания и названия юнитов/зданий/ГПшек
 	+переведены почти все имеющиеся одиночные карты/миссии с текстом
-	-непереведены иконки
+	-не переведены иконки
+	-не переведена озвучка
 
 Для работы переведённых карт их оригиналы с moddb не требуются.
 
 Локализатор поддерживает перевод следующих карт:
-* [Turtle Mountain](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/turtle-mountain)
 * [Poisoned Hope](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/poisoned-hope)
 * [Red Freeze](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze)
 * [Falling Dragon](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon)
-* [Crisis on the Coast](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack)
-* [First GLA Campaign Pack](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/first-gla-pack)
+* [GLA Campaign Pack](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/gla-campaign-pack)
+* [China Campaign First Part](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/china-campaign-first-part)
+* [GLA Boss Challenge](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/challenge-01)
+* [USA 3 Mission Remake](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/usa-3-remake)
 * [Hail Field](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps)
-* [Nod Valves](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/tiberian-sun-22nd-anniversary-nod-valves)
+* [Crisis on the Coast](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/generals-evolution-dev-history-map-pack)
+* [Turtle Mountain](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/turtle-mountain-beta-03)
+* [Nod Valves](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/tiberian-sun-22nd-anniversary-nod-valves-beta-03)
 
 ## Описание установки
 Файлы из папки Maps скопируйте в папку по пути `%appdata%\Red Alert 3\Maps`.

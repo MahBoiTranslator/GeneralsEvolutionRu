@@ -2,7 +2,7 @@
 
 : Сборка .big файла перевода
 mkdir Translation
-start Tools\MakeBig.exe -f -o:Translation\GenEvo_B0.21_English.big Source\csf
+start Tools\MakeBig.exe -f -o:Translation\GenEvo_B0.3_English.big Source\csf
 
 : "Сборка" клиента
 mkdir Translation\Launcher

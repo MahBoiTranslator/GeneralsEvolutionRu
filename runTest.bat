@@ -7,9 +7,9 @@ call Build.bat
 timeout /t 10
 
 : Копирование файлов мода в папку для тестов, а карт в апдату
-xcopy /h /y /c /r /s Translation\Launcher\* _Test\Launcher\*
-xcopy /h /y /c /r /s Translation\GenEvo_B0.3_English.big _Test\GenEvo_B0.21_English.big
-xcopy /h /y /c /r /s Translation\Maps\* %appdata%\"Red Alert 3"\Maps
+xcopy /h /y /c /r /s Translation\Launcher\*              C:\Users\PC\Documents\"Red Alert 3"\Mods\GenEvo\Launcher\*
+xcopy /h /y /c /r /s Translation\GenEvo_B0.3_English.big C:\Users\PC\Documents\"Red Alert 3"\Mods\GenEvo\GenEvo_B0.3_English.big
+xcopy /h /y /c /r /s Translation\Maps\*                  %appdata%\"Red Alert 3"\Maps
 
 : Задержка необходима для того, чтобы файлы успели скопироваться
 timeout /t 10

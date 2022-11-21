@@ -2,4 +2,4 @@
 
 : Запуск скрипта дяя сборки русификатора
 cd Scripts
-call Build.bat
+call CopyMapsToAppdata.bat

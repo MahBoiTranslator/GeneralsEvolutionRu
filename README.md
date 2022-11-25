@@ -38,5 +38,8 @@
 * [DarthJane](https://github.com/Qibbi)              : Поддержка [WrathED](https://github.com/Qibbi/WrathEd2012)
 * [m3tro](https://www.youtube.com/c/m3tro_romhack)                  : Помощь со скриптами
 
+## Поддержка
+Если вы желаете, чтобы русификатор обновлялся сразу после выхода новой версии мода, постоянно поддерживался и развивался, то поддержите денежно мои старания на платформе [boosty](https://boosty.to/mah_boi).
+
 ## Прочая информация
-Подробнее про мод можно почитать [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора будет появляться в [группе ВКонтакте сайта C&C Series](https://vk.com/cncseries).
+Подробнее про мод можно почитать [здесь](https://cncseries.ru/generals-evolution/). Вся информация по обновлению локализатора появляется в группе ВКонтакте [сайта C&C Series](https://vk.com/cncseries).

@@ -9,7 +9,7 @@
 	Описание переведённых и не переведённых элементов:
 		+ переведено полностью внутриигровое меню
 		+ переведены описания и названия юнитов/зданий/ГПшек
-		+ переведены почти все имеющиеся одиночные карты/миссии с текстом
+		+переведены все фанатские и официальные испытания/миссии
 		- не переведены изображения
 		- не переведены озвучка
 
@@ -23,10 +23,12 @@
 		* Red Freeze            : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze
 		* Falling Dragon        : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon
 		* USA 3 Mission Remake  : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/usa-3-remake
-		* Hail Field            : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps
-		* Bad Evening Challenge : https://cdn.discordapp.com/attachments/829258846362533900/1040005328001060904/Bad_Evening_Challenge_v1.01.rar
 		* Fan GLA Campaign      : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/gla-campaign-pack
 		* Fan China Campaign    : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/china-campaign-first-part
+		* Hail Field            : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps
+		* Bad Evening Challenge : https://cdn.discordapp.com/attachments/829258846362533900/1040005328001060904/Bad_Evening_Challenge_v1.01.rar
+		* Desert Trap Challenge : https://cdn.discordapp.com/attachments/829258846362533900/1052247650839310417/GenEvoDesert_Trap.rar
+
 
 	Актуальную версию локализатора можно скачать с репозитория на гитхабе: 
 		https://github.com/MahBoiTranslator/GeneralsEvolutionRu
@@ -35,14 +37,21 @@
 	Файлы из папки Maps скопируйте в папку по пути %appdata%\Red Alert 3\Maps.
 
 	Оставшиеся файлы русификатора (которые не лежат в папке Maps)
-	скопируйте в папку с модом Generals Evolution той же версии, что и русификатор, 
-	подтверждая замену.
+	скопируйте в папку с модом Generals Evolution той же версии, 
+	что и русификатор, подтверждая замену.
 
 Благодарности
 	Sgor00 и GunshipMarkII : Создание мода, а поддержка идеи локализации и редактора карт
 	AlexanderMS            : Создание редактора Turbo String Table Editor
 	DarthJane              : Поддержка WrathED
 	m3tro                  : Помощь со скриптами
+
+Поддержка
+	Если вы желаете, чтобы русификатор обновлялся сразу 
+	после выхода новой версии мода, а также постоянно 
+	поддерживался и развивался, то поддержите денежно мои 
+	старания на платформе boosty:
+		https://boosty.to/mah_boi
 
 Прочая информация
 	Подробнее про мод можно почитать по ссылке: 

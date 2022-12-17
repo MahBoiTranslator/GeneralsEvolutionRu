@@ -9,7 +9,7 @@
 	Описание переведённых и не переведённых элементов:
 		+ переведено полностью внутриигровое меню
 		+ переведены описания и названия юнитов/зданий/ГПшек
-		+переведены все фанатские и официальные испытания/миссии
+		+ переведены все фанатские и официальные испытания/миссии
 		- не переведены изображения
 		- не переведены озвучка
 
@@ -27,7 +27,7 @@
 		* Fan China Campaign    : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/china-campaign-first-part
 		* Hail Field            : https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps
 		* Bad Evening Challenge : https://cdn.discordapp.com/attachments/829258846362533900/1040005328001060904/Bad_Evening_Challenge_v1.01.rar
-		* Desert Trap Challenge : https://cdn.discordapp.com/attachments/829258846362533900/1052247650839310417/GenEvoDesert_Trap.rar
+		* Desert Trap Challenge : https://cdn.discordapp.com/attachments/829258846362533900/1053356170313732207/GenEvoDesert_Trap.rar
 
 
 	Актуальную версию локализатора можно скачать с репозитория на гитхабе: 

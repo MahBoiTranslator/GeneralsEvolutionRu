@@ -28,7 +28,7 @@
 * [Fan China Campaign](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/china-campaign-first-part)
 * [Hail Field](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps)
 * [Bad Evening Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1040005328001060904/Bad_Evening_Challenge_v1.01.rar)
-* [Desert Trap Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1052247650839310417/GenEvoDesert_Trap.rar)
+* [Desert Trap Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1053356170313732207/GenEvoDesert_Trap.rar)
 
 ## Описание установки
 Файлы из папки Maps скопируйте в папку по пути `%appdata%\Red Alert 3\Maps`.

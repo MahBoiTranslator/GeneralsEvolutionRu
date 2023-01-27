@@ -29,6 +29,7 @@
 * [Hail Field](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps)
 * [Bad Evening Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1040005328001060904/Bad_Evening_Challenge_v1.01.rar)
 * [Desert Trap Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1053356170313732207/GenEvoDesert_Trap.rar)
+* [Kwai Challenge](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/kwai-challenge-map-for-genevo)
 
 ## Описание установки
 Файлы из папки Maps скопируйте в папку по пути `%appdata%\Red Alert 3\Maps`.

@@ -1,5 +1,5 @@
 # Русификатор мода Generals Evolution на Red Alert 3
-[![Github All Releases](https://img.shields.io/github/downloads/MahBoiTranslator/GeneralsEvolutionRu/total.svg)](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/MahBoiTranslator/GeneralsEvolutionRu/total.svg)](https://github.com/MahBoiTranslator/GeneralsEvolutionRu/releases) [![Support me on Boosty](https://img.shields.io/badge/boosty-50₽/месяц-green.svg?logo=boosty)](https://boosty.to/mah_boi)
 ## Описание локализатора
 Данный локализатор является неофициальным языковым патчем для мода Generals Evolution, который переводит интерфейс и почти весь текст мода с английского языка на русский язык. То, что не получилось перевести, скорее всего с технической точки зрения крайне тяжело изменяется (речь об озвучке и изображениях с текстом). Ниже приведено описание переведённых и не переведённых элементов.
 

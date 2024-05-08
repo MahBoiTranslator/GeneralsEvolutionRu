@@ -44,6 +44,7 @@
 * [AlexanderMS](https://web.archive.org/web/20200411001236/http://alexanderms.narod.ru/AboutCSFEditor.html)            : Создание редактора [Turbo String Table Editor](https://web.archive.org/web/20200411001236/http://alexanderms.narod.ru/AboutCSFEditor.html)
 * [DarthJane](https://github.com/Qibbi)              : Поддержка [WrathED](https://github.com/Qibbi/WrathEd2012)
 * [m3tro](https://www.youtube.com/c/m3tro_romhack)                  : Помощь со скриптами
+* [MrChaser](https://www.youtube.com/@MrChaserDnB)               : Клиннинг и популяризация перевода
 
 ## Поддержка
 Если вы желаете, чтобы русификатор обновлялся сразу после выхода новой версии мода, а также постоянно поддерживался и развивался, то поддержите денежно мои старания на платформе [Boosty](https://boosty.to/mah_boi).
